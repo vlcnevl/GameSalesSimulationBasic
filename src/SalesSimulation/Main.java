@@ -20,7 +20,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		
 		UserService userService = new UserManager(new MernisAdapter());
-		User user = new User(1,"jesper","1","Velican","Evli","15604039660",1998);
+		User user = new User(1,"jesper","1","Velican","Evli","12345678910",1998);
 		userService.add(user);
 		
 		GameService gameService= new GameManager();
